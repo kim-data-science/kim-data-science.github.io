@@ -1,0 +1,57 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "Categories"
+    url: /categories/
+  - title: "Projects"
+    url: /categories/projects/portfolio/
+
+docs:
+  - title: "Projects"
+    children:
+        - title: "Portfolio"
+          url: /categories/projects/portfolio/
+        - title: "Old Projects (2022)"
+          url: /categories/projects/old/
+  - title: "Statistics"
+    children:
+        - title: "Theories & Applications"
+          url: /categories/statistics/theories/
+#        - title: "Applications"
+#          url: /categories/statistics/applications/
+  - title: "Machine Learnings"
+    children:
+        - title: "Code Examples"
+          url: /categories/ml/traditional/
+#        - title: "Deep Learnings"
+#          url: /categories/ml/dl/    
+#        - title: "LLM"
+#          url: /categories/ml/llm/
+        - title: "Techniques, Etc."
+          url: /categories/ml/techniques/
+
+  - title: "Computer Sciences"
+    children:
+        - title: "Data Structures & Algorithms"
+          url: /categories/cs/dsa/
+        #- title: "Useful Knowledge"
+        #  url: /categories/cs/knowledge/
+  - title: "Analytics"
+    children:
+        - title: "Data Visualization"
+          url: /categories/analytics/visualization/
+        - title: "SQL"
+          url: /categories/analytics/sql/
+  - title: "Data"
+    children:
+        - title: "Data Mining"
+          url: /categories/data/mining/
+        - title: "Data Preprocessing"
+          url: /categories/data/preprocessing/
+  - title: "Misc"
+    children:
+        - title: "Tips"
+          url: /categories/misc/tips/
+#        - title: "Product Reviews"
+#          url: /categories/misc/reviews/   
