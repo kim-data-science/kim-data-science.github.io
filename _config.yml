@@ -151,6 +151,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      url: "https://github.com/kim-data-person"
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
@@ -163,7 +164,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url:
+      url: "https://www.linkedin.com/in/minjung-mj-kim/"
 
 # Reading Files
 include:
