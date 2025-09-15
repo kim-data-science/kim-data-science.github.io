@@ -37,18 +37,22 @@ docs:
           url: /categories/cs/dsa/
         #- title: "Useful Knowledge"
         #  url: /categories/cs/knowledge/
-  - title: "Analytics"
+  - title: "AI/Cloud/Large Scale"
     children:
-        - title: "Data Visualization"
-          url: /categories/analytics/visualization/
-        - title: "SQL"
-          url: /categories/analytics/sql/
+        - title: "Cloud"
+          url: /categories/ai/cloud/
   - title: "Data"
     children:
         - title: "Data Mining"
           url: /categories/data/mining/
         - title: "Data Preprocessing"
           url: /categories/data/preprocessing/
+  - title: "Analytics"
+    children:
+        #- title: "Data Visualization"
+        #  url: /categories/analytics/visualization/
+        - title: "SQL"
+          url: /categories/analytics/sql/
   - title: "Misc"
     children:
         - title: "Tips"
