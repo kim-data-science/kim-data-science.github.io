@@ -25,7 +25,7 @@ Even for paid service, the amount of usage for trainings won't be expensive. Che
 4. **Important**: The account you create becomes the ROOT user with full administrative access.
 
 ### ROOT User Best Practices
-ROOT user is difficult to recover once hacked. The best practice is to reduce risks of hacking.
+ROOT user is difficult to recover once compromized. The best practice is to reduce risks of hacking.
 - **Enable MFA immediately** - Go to IAM → Users → ROOT user → Security credentials
 - **Use strong password** - Minimum 8 characters with mixed case, numbers, symbols
 - **Avoid using ROOT for daily operations** - Create IAM users for regular tasks including admin permissions
