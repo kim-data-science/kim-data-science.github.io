@@ -15,6 +15,7 @@ toc: false
 
 ### What is a Security Group?
 - **Virtual Firewall**: Controls inbound and outbound traffic to EC2 instances
+- Lives outside of EC2, can be applied to multiple EC2 instances
 
 ### Security Group Creation Steps
 
