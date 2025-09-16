@@ -48,3 +48,6 @@ Following settings are to create an admin user
 ### IAM User Best Practices
 - **Use groups**: Organize users by role/function
 - **Least privilege**: Grant minimum required permissions
+
+### Tip
+- If you create Account Alias, you don't have to memorize Account ID each time login.
