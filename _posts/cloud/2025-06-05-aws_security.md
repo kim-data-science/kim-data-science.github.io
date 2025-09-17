@@ -26,8 +26,11 @@ toc: false
 
 #### 2. Configure rules
 As creating an EC2 instance, its security group is created accordingly. This security group can be found in the above page.
-I left everything as default.
-If needed, inbound and outbound rules can be edited. 
+I added followings at inbound rules to use jupyter notbook:
+- **Port**: 8888
+- **Protocol**: Custom TCP
+- **Source**: My IP
+
 
 #### Common Port Configurations
 - 22 (SSH), 80 (HTTP), 443 (HTTPS)
