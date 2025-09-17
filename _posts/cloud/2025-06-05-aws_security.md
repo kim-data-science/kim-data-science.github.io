@@ -31,6 +31,10 @@ I added followings at inbound rules to use jupyter notbook:
 - **Protocol**: Custom TCP
 - **Source**: My IP
 
-
+### Tip
 #### Common Port Configurations
-- 22 (SSH), 80 (HTTP), 443 (HTTPS)
+
+#### You can create a security group manually at the Security Group console
+My customization of Inbound rules:
+- TCP Protocol with 0.0.0.0/0 as Source and Port range 22 (SSH), 80 (HTTP), 443 (HTTPS)
+- TCP Protocol with My IP as Source and Port range 8888 (Jupyter browser)
