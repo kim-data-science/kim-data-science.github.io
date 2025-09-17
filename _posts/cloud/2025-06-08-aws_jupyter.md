@@ -41,7 +41,8 @@ jupyter notebook --generate-config
 #### 3. Configure Jupyter for Remote Access
 ```bash
 
-# Copy and paste followings at ~/.jupyter/jupyter_notebook_config.py
+# Create custom configuration
+cat > ~/.jupyter/jupyter_notebook_config.py << EOF
 c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.port = 8888
 c.NotebookApp.open_browser = False
@@ -49,7 +50,7 @@ c.NotebookApp.allow_root = True
 c.NotebookApp.token = ''
 c.NotebookApp.password = ''
 c.NotebookApp.notebook_dir = '/home/ec2-user'
-
+EOF
 ```
 
 #### 4. Start Jupyter Notebook
