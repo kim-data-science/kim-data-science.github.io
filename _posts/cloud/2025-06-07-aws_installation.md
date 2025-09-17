@@ -13,11 +13,6 @@ toc: false
 
 ## Apache Spark Installation on EC2
 
-### Prerequisites
-- **EC2 Instance**: Running Linux instance (Amazon Linux 2023 recommended)
-- **SSH Access**: Connected to your EC2 instance
-- **Java**: Required for Spark
-
 ### Installation Steps
 
 #### 1. Update System
