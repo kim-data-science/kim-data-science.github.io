@@ -88,6 +88,7 @@ pip3 install py4j findspark
 #### 2. Monitor Installation
 ```bash
 # SSH into instance after launch
+chmod 400 your-key.pem
 ssh -i your-key.pem ec2-user@your-public-ip
 
 # Check installation progress
