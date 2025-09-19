@@ -5,7 +5,8 @@ categories:
 tags:
   - Error propagation
   - Statistics
-  
+
+mathjax: true
 classes: wide
 toc: false
 
