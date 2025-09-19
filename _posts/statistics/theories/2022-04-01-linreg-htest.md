@@ -8,7 +8,8 @@ tags:
   - Statistics
   - Linear regression
   - Gradient descent
-  
+
+use_math: true
 classes: wide
 toc: false
 
@@ -39,12 +40,12 @@ In the least squares method,
 the best values of the parameters $$w, b$$ make the sum
 
 ```math
-J=\Sigma_{i}^{n}\frac{(y_i-wx_i-b)^2}{\sigma_i^2}$$ 
+J=\Sigma_{i}^{n}\frac{(y_i-wx_i-b)^2}{\sigma_i^2}
 ```
 
 minimum,
 where $$i$$ is the index of each data point,
-$$n$$ is the total number of data points, 
+$n$ is the total number of data points, 
 and $$\sigma_i^2$$ is an error of variable $$y_i$$.
 The value $$J$$ is also called *weighted least square*.
 
