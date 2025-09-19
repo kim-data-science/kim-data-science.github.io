@@ -9,7 +9,7 @@ tags:
   - Linear regression
   - Gradient descent
 
-use_math: true
+mathjax: true
 classes: wide
 toc: false
 
