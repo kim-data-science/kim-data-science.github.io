@@ -15,7 +15,7 @@ toc: false
 ---
 
 
-Linear regression can build a statistical model which predicts a continuous numerical output using a continuous numerical input(s). Simply, it finds a parameter(s) of a given function $$y=f(x)$$ based on $$x$$ and $$y$$ dataset.
+Linear regression can build a statistical model which predicts a continuous numerical output using a continuous numerical input(s). Simply, it finds a parameter(s) of a given function $`y=f(x)`$ based on $$x$$ and $$y$$ dataset.
 The linear regression technique is commonly used in researches to test a theory which describes a relationship between observables. In machine learning courses, the linear regression is probabily what everyone learns in the beginning. 
 It is easy, but very useful.
 
@@ -38,7 +38,9 @@ the *least squares method* is used.
 In the least squares method, 
 the best values of the parameters $$w, b$$ make the sum
 
-$$J=\Sigma_{i}^{n}\frac{(y_i-wx_i-b)^2}{\sigma_i^2}$$ 
+```math
+J=\Sigma_{i}^{n}\frac{(y_i-wx_i-b)^2}{\sigma_i^2}$$ 
+```
 
 minimum,
 where $$i$$ is the index of each data point,
