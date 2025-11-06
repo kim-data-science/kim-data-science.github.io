@@ -61,3 +61,9 @@ jupyter notebook --no-browser --port=8888
 
 #### 5. Access via Browser
 - **URL**: `http://your-ec2-public-ip-that-can-be-found-from-ec2-instance-console:8888`
+
+#### 6. Use spark libraries
+```python
+import findspark
+findspark.init('/opt/spark/spark-4.0.1-bin-hadoop3')
+```

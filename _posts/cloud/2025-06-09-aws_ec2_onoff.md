@@ -74,7 +74,7 @@ c.NotebookApp.notebook_dir = '/home/ec2-user'
 EOF
 
 # Install python packages (add more as needed)
-pip3 install py4j findspark 
+pip3 install py4j findspark pyspark
 ```
 
 ### Launching EC2 with User Data
