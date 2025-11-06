@@ -2,8 +2,6 @@
 main:
   - title: "Home"
     url: /
-  - title: "Categories"
-    url: /categories/
   - title: "Projects"
     url: /categories/projects/portfolio/
 
@@ -12,8 +10,6 @@ docs:
     children:
         - title: "Portfolio"
           url: /categories/projects/portfolio/
-        - title: "Old Projects (2022)"
-          url: /categories/projects/old/
   - title: "Statistics"
     children:
         - title: "Theories & Applications"
