@@ -126,7 +126,7 @@ author:
       url: #"mailto:minjung.kim.datascience@gmail.com"
     - label: "My Website"
       icon: "fas fa-fw fa-link"
-      url: "https://about-kim.github.io"
+      url: "https://mkim-intro.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
