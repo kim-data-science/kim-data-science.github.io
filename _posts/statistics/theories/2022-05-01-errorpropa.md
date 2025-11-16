@@ -84,5 +84,5 @@ What happens when $$x$$ and $$y$$ are distributed around zero?
 Then the error propagation formula will give you wrong answer, and you should try alternative way: simulation.
 
 Check out details of calculation and code implementation at my Jupyter Notebook post.
-[Link to my GitHub](https://github.com/minjung-mj-kim/minjung-mj-kim.github.io/blob/master/_posts/Statistics/error_propa.ipynb)
+[Error Propagation - Python Implementation](https://github.com/kim-datascience/tutorial/blob/main/error_propa.ipynb)
 
